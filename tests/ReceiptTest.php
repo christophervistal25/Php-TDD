@@ -8,7 +8,7 @@ use TDD\Receipt;
 class ReceiptTest extends TestCase {
 
 	/**
-	* All test data is encapsulated on this trait
+	* All test data are encapsulated on this trait
 	*/
 	use DataProviders\ReceiptTestDataProvider;
 
