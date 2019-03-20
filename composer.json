@@ -1,0 +1,16 @@
+{
+    "name": "tdd/test",
+    "require": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload" : {
+    	"psr-4" : {
+    		"TDD\\":"src/"
+    	}
+    },
+    "autoload-dev" : {
+    	"psr-4" :  {
+    		"TDD\\Test\\" : "tests/"
+    	}
+    }
+}
