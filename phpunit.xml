@@ -43,8 +43,8 @@
             -->
         </whitelist>
     </filter>
-    <!--
-    <logging>
+
+    <!-- <logging>
         <log
             type="coverage-html"
             target="./tmp/coverage/html/"
@@ -57,6 +57,6 @@
             type="coverage-clover"
             target="./tmp/coverage/clover.xml"
         />
-    </logging>
-    -->
+    </logging> -->
+
 </phpunit>
